@@ -1,2 +1,4 @@
 .vscode/launch.json
 sonarlint.json
+
+\.sonar/

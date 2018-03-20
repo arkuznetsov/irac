@@ -1,0 +1,14 @@
+sudo: required
+dist: trusty
+addons:
+  sonarcloud: true
+jdk:
+  - oraclejdk8
+before_install: 
+  - chmod +x travis.sh
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
+script: 
+  - ./travis.sh
