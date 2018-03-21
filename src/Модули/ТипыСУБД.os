@@ -1,7 +1,7 @@
-Перем MSSQLServer Экспорт;
-Перем PostgreSQL Экспорт;
-Перем IBMDB2 Экспорт;
-Перем OracleDatabase Экспорт;
+Перем MSSQLServer Экспорт;		// MSSQLServer
+Перем PostgreSQL Экспорт;		// PostgreSQL
+Перем IBMDB2 Экспорт;			// IBMDB2
+Перем OracleDatabase Экспорт;	// OracleDatabase
 
 MSSQLServer = "MSSQLServer";
 PostgreSQL = "PostgreSQL";
