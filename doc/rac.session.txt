@@ -59,3 +59,36 @@
 
         --session=<uuid>
             (обязательный) идентификатор сеанса информационной базы
+
+Поля сеанса:
+    session		- ID
+    session-id	- Number
+    infobase	- ID
+    connection	- ID
+    process		- ID
+    user-name
+    host
+    app-id
+    locale		- "ru_RU"
+    started-at
+    last-active-at
+    hibernate
+    passive-session-hibernate-time
+    hibernate-session-terminate-time
+    blocked-by-dbms
+    blocked-by-ls
+    bytes-all
+    bytes-last-5min
+    calls-all
+    calls-last-5min
+    dbms-bytes-all
+    dbms-bytes-last-5min
+    db-proc-info
+    db-proc-took
+    db-proc-took-at
+    duration-all
+    duration-all-dbms
+    duration-current
+    duration-current-dbms
+    duration-last-5min
+    duration-last-5min-dbms
