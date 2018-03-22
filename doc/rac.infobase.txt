@@ -215,3 +215,25 @@
 
         --clear-database
             при удалении информационной базы очистить базу данных
+
+Поля информационной базы:
+    infobase    - ID
+    name
+    descr
+    dbms
+    db-server
+    db-name
+    db-user
+    db-pwd
+    denied-from
+    denied-to
+    denied-message
+    denied-parameter
+    permission-code
+    sessions-deny
+    scheduled-jobs-deny
+    license-distribution
+    external-session-manager-connection-string
+    external-session-manager-required
+    security-profile-name
+    safe-mode-security-profile-name
