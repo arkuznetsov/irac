@@ -2,3 +2,4 @@
 sonarlint.json
 
 \.sonar/
+test-reports/
