@@ -187,3 +187,25 @@
 
         --cluster-pwd=<pwd>
             пароль администратора кластера
+
+Поля администратора:
+    name
+    pwd     - только запись
+    auth    - "", pwd, os, pwd|os
+    os-user - \\<domain>\<user>
+    descr
+
+Поля кластера:
+    cluster                         - ID
+    host
+    port
+    name
+    expiration-timeout
+    lifetime-limit
+    max-memory-size
+    max-memory-time-limit
+    security-level
+    session-fault-tolerance-level
+    load-balancing-mode             - memory, performance
+    errors-count-threshold
+    kill-problem-processes
