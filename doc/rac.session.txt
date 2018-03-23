@@ -61,18 +61,18 @@
             (обязательный) идентификатор сеанса информационной базы
 
 Поля сеанса:
-    session		- ID
-    session-id	- Number
-    infobase	- ID
-    connection	- ID
-    process		- ID
-    user-name
+    session	        	- ID
+    session-id      	- Number
+    infobase	        - ID
+    connection      	- ID
+    process		        - ID
+    user-name           - "", DefUser, <имя пользователя>
     host
-    app-id
-    locale		- "ru_RU"
+    app-id              - Designer, SrvrConsole, 1CV8C, 1CV8, BackgroundJob, ?COMConnection, ?WebServerExtension
+    locale              - "ru_RU"
     started-at
     last-active-at
-    hibernate
+    hibernate           - yes, no
     passive-session-hibernate-time
     hibernate-session-terminate-time
     blocked-by-dbms
@@ -92,3 +92,22 @@
     duration-current-dbms
     duration-last-5min
     duration-last-5min-dbms
+
+Поля лицензий:
+    session             - ID
+    user-name           - "", DefUser, <имя пользователя>
+    host
+    app-id              - Designer, SrvrConsole, 1CV8C, 1CV8, BackgroundJob, ?COMConnection, ?WebServerExtension
+    full-name
+    series
+    issued-by-server    - yes, no
+    license-type        - HASP, 
+    net                 - yes, no
+    max-users-all
+    max-users-cur
+    rmngr-address
+    rmngr-port
+    rmngr-pid
+    short-presentation
+    full-presentation
+

@@ -129,3 +129,9 @@
 
         --rule=<uuid>
             (обязательный) идентификатор требования назначения
+
+BackgroundJob
+    BackgroundJob.ScheduledJob
+    BackgroundJob.ScheduledJob.<Имя объекта конфигурации>
+    BackgroundJob
+    BackgroundJob.CommonModule.<Имя модуля>.<Имя метода>
