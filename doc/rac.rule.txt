@@ -135,3 +135,18 @@ BackgroundJob
     BackgroundJob.ScheduledJob.<Имя объекта конфигурации>
     BackgroundJob
     BackgroundJob.CommonModule.<Имя модуля>.<Имя метода>
+    BackgroundJob.FullTextSearchIndexAdditionalUpdate
+    BackgroundJob.GenerateReport
+    BackgroundJob.GenerateReport.<Полное имя объекта конфигурации>
+    BackgroundJob.InputByString
+    BackgroundJob.InputByString.<Полное имя объекта конфигурации>
+    BackgroundJob.DynamicListSearch
+    BackgroundJob.DynamicListSearch.<Полное имя формы>.<Имя таблицы формы связанной со списком>
+    SystemBackgroundJob.DBConfigUpdate
+
+Приложения:
+    1CV8
+    1CV8CDirect
+    Designer 
+    COMConnection
+    WebServerExtension
