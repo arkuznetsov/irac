@@ -71,3 +71,14 @@
 
         --infobase-pwd=<pwd>
             пароль администратора информационной базы
+
+Поля соединения:
+    connection         - ID
+    conn-id
+    host
+    process            - ID
+    infobase           - ID, "00000000-0000-0000-0000-000000000000"
+    application        - JobScheduler, ?
+    connected-at
+    session-number
+    blocked-by-ls      - ?
