@@ -129,3 +129,18 @@
 
         --server=<uuid>
             (обязательный) идентификатор рабочего сервера кластера серверов
+
+Поля сервера:
+    server             -ID
+    agent-host
+    agent-port
+    port-range
+    name
+    using              - main, normal
+    dedicate-managers  - all, none
+    infobases-limit
+    memory-limit
+    connections-limit
+    safe-working-processes-memory-limit
+    safe-call-memory-limit
+    cluster-port
