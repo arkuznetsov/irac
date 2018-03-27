@@ -75,3 +75,21 @@
     avg-lock-call-time:0.000
     avg-server-call-time:-1.096
     avg-threads:0.000
+
+Поля лицензий:
+    process            - ID
+    host
+    port
+    pid
+    full-name
+    series
+    issued-by-server   - yes, no
+    license-type       - HASP,
+    net                - yes, no
+    max-users-all
+    max-users-cur
+    rmngr-address
+    rmngr-port
+    rmngr-pid
+    short-presentation
+    full-presentation
