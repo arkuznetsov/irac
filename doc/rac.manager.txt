@@ -44,3 +44,11 @@
 
     list
         получение списка информации о менеджерах
+
+Поля менеджера:
+    manager         - ID
+    pid
+    using           - normal,
+    host
+    port
+    descr
