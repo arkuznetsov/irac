@@ -53,3 +53,25 @@
 
         --licenses
             вывод информации о лицензиях, выданных рабочим процессом
+
+Поля процесса:
+    process     - ID
+    host
+    port
+    pid
+    is-enable:yes
+    running:yes
+    started-at:2018-02-19T14
+    use         - used,
+    available-perfomance:100
+    capacity:1000
+    connections:7
+    memory-size:2852656
+    memory-excess-time:0
+    selection-size:42317
+    avg-back-call-time:0.000
+    avg-call-time:0.000
+    avg-db-call-time:0.000
+    avg-lock-call-time:0.000
+    avg-server-call-time:-1.096
+    avg-threads:0.000
