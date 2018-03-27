@@ -38,3 +38,9 @@
 
     list
         получение списка информации о сервисах
+
+Поля сервиса:
+    name            - LicenseService, ?
+    main-only       - ?
+    manager         - ID
+    descr
