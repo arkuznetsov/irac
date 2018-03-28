@@ -14,8 +14,9 @@ before_install:
   - sudo dpkg -i os.deb; sudo apt install -f
   - oscript
 install:  
-  - sudo opm install -l
+  - sudo opm install 
   - sudo opm install 1testrunner
+  - sudo opm install v8runner
   
 cache:
   directories:
