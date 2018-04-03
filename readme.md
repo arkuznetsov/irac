@@ -1,5 +1,5 @@
 # Библиотека управления кластером 1С
-[![Build Status](https://travis-ci.org/akuznetsov/irac.svg?branch=develop)](https://travis-ci.org/akuznetsov/irac)
+[![Build Status](https://travis-ci.org/arkuznetsov/irac.svg?branch=develop)](https://travis-ci.org/arkuznetsov/irac)
 [![Quality Gate](https://sonar.silverbulleters.org/api/badges/gate?key=opensource-irac)](https://sonar.silverbulleters.org/dashboard/index/opensource-irac)
 [![Coverage](https://sonar.silverbulleters.org/api/badges/measure?key=opensource-irac&metric=coverage)](https://sonar.silverbulleters.org/dashboard/index/opensource-irac)
 [![Tech debt](https://sonar.silverbulleters.org/api/badges/measure?key=opensource-irac&metric=sqale_debt_ratio)](https://sonar.silverbulleters.org/dashboard/index/opensource-irac)
