@@ -4,3 +4,4 @@ sonarlint.json
 \.sonar/
 test-reports/
 coverage/
+*.ospx
