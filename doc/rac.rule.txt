@@ -150,3 +150,33 @@ BackgroundJob
     Designer 
     COMConnection
     WebServerExtension
+
+Поля требований назначения функциональности:
+    rule            - ID
+    object-type
+    infobase-name
+    rule-type
+    application-ext
+    priority
+
+object-type:
+    ""
+    Connection
+    DataBaseConfigurationUpdateService
+    EventLogService
+    OpenID2ProviderContextService
+    FulltextSearchService
+    SettingsService
+    TransactionLockService
+    ExternalSessionManagerService
+    ExternalDataSourceXMLAService
+    ClientTestingService
+    LicenseService
+    AuxiliaryService
+    TimestampService
+    DataEditLockService
+    SessionDataService
+    JobService
+    NumerationService
+    SessionReuseService
+    ExternalDataSourceODBCService
