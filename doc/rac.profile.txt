@@ -296,3 +296,65 @@
 
         --name=<name>
             (обязательный) имя профиля безопасности
+
+Поля профиля:
+    name
+    descr
+    config								yes, no
+    priv								yes, no
+    directory							list
+    com									list
+    addin								list
+    module								list
+    app									list
+    inet								list
+    crypto								yes, no
+    right-extension						yes, no
+    right-extension-definition-roles
+    all-modules-extension				yes, no
+    modules-available-for-extension
+    modules-not-available-for-extension
+
+Типы объектов разрешений:
+    directory
+    com
+    addin
+    module
+    app
+    inet
+
+Поля directory:
+	alias
+	descr
+	physicalPath
+	allowedRead		yes,no
+	allowedWrite	yes,no
+
+Поля com:
+	name
+	descr
+	fileName
+	id			00000000-0000-0000-0000-000000000000
+	host
+
+Поля addin:
+	name
+	descr
+	hash		iaKOwtd6TRHQHOq5dTaAQA==
+
+Поля module:
+	name
+	descr
+	hash		iaKOwtd6TRHQHOq5dTaAQA==
+
+Поля app:
+	name
+	descr
+	wild
+
+Поля inet:
+	name
+	descr
+	protocol
+	url
+	port
