@@ -14,7 +14,7 @@ before_install:
   - sudo dpkg -i os.deb; sudo apt install -f
   - oscript
   - sudo git clone -b develop http://github.com/arkuznetsov/moskito ./moskito
-  - sudo opm build ./moskito
+  - sudo opm build ./moskito -out ./moskito
 install:  
   - sudo opm install 
   - sudo opm install 1testrunner
