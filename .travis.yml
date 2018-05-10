@@ -13,7 +13,8 @@ before_install:
   - wget -O os.deb http://oscript.io/downloads/night-build/deb
   - sudo dpkg -i os.deb; sudo apt install -f
   - oscript
-  - git clone -b develop http://github.com/arkuznetsov/moskito ./moskito
+  - sudo git clone -b develop http://github.com/arkuznetsov/moskito ./moskito
+  - sudo opm build ./moskito
 install:  
   - sudo opm install 
   - sudo opm install 1testrunner
