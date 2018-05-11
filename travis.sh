@@ -2,6 +2,8 @@
 #!/bin/bash
 set -e
 
+sudo opm test
+
 sudo opm run coverage
 
 temp=`cat packagedef | grep ".Версия(" | sed 's|[^"]*"||' | sed -r 's/".+//'`
