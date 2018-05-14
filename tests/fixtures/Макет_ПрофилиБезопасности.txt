@@ -1,0 +1,17 @@
+name                                : ОсновнойПрофиль
+descr                               : Основной профиль безопасности
+config                              : no
+priv                                : no
+directory                           : list
+com                                 : list
+addin                               : list
+module                              : list
+app                                 : list
+inet                                : list
+crypto                              : no
+right-extension                     : no
+right-extension-definition-roles    : 
+all-modules-extension               : no
+modules-available-for-extension     : 
+modules-not-available-for-extension : 
+

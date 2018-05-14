@@ -1,0 +1,21 @@
+infobase									: feba16a9-3bb0-4fc9-b940-0f1ab933c539
+name										: DEV_User1_ACC_Cust1
+dbms                                       : MSSQLServer
+db-server                                  : Sport1
+db-name                                    : DEV_User1_ACC_Cust1
+db-user                                    : _1CSrvUsr1
+security-level                             : 0
+license-distribution                       : allow
+scheduled-jobs-deny                        : on
+sessions-deny                              : off
+denied-from                                : 
+denied-message                             : 
+denied-parameter                           : 
+denied-to                                  : 
+permission-code                            : 
+external-session-manager-connection-string : 
+external-session-manager-required          : no
+security-profile-name                      : 
+safe-mode-security-profile-name            : 
+descr                                      : 
+

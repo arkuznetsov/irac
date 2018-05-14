@@ -1,0 +1,17 @@
+session            : 1fb5f037-99e8-4924-a99d-a9e687522d32
+user-name          : АКузнецов
+host               : Sport1
+app-id             : Designer
+full-name          : 
+series             : "ORGL8"
+issued-by-server   : no
+license-type       : HASP
+net                : no
+max-users-all      : 100
+max-users-cur      : 100
+rmngr-address      : 
+rmngr-port         : 0
+rmngr-pid          : 6212
+short-presentation : "Клиент, ORGL8 Лок 100"
+full-presentation  : "Клиент, 6212, ORGL8 Локальный 100"
+

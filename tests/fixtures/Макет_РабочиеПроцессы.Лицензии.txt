@@ -1,0 +1,17 @@
+process            : 3ea9968d-159c-4b5f-9bdc-22b8ead96f74
+host               : Sport1
+port               : 1564
+pid                : 5428
+full-name          : 
+series             : "EN8SA"
+issued-by-server   : yes
+license-type       : HASP
+net                : no
+max-users-all      : 1
+max-users-cur      : 1
+rmngr-address      : "Sport1"
+rmngr-port         : 1564
+rmngr-pid          : 5428
+short-presentation : "Сервер, EN8SA Лок 1"
+full-presentation  : "Сервер, 5428, Sport1, 1564, EN8SA Локальный 1"
+

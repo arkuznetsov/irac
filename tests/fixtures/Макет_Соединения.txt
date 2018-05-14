@@ -1,0 +1,150 @@
+connection     : 1976200b-6b2f-4f6d-bc21-7aea57924330
+conn-id        : 1753098
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 76e63eea-c3d8-48d7-8e3c-ba80aaedbce9
+application    : "Designer"
+connected-at   : 2018-05-07T11:56:31
+session-number : 1
+blocked-by-ls  : 0
+
+connection     : 8adf4514-0379-4333-a153-0b2689edc415
+conn-id        : 947282
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : aea71760-15b3-485a-9a35-506eb8a0b04a
+application    : "Designer"
+connected-at   : 2018-04-18T16:17:57
+session-number : 1
+blocked-by-ls  : 0
+
+connection     : 2f5c0a21-65d1-4af2-8a29-3019957a16c3
+conn-id        : 0
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "Debugger"
+connected-at   : 2018-05-07T11:56:39
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : fa82e322-e566-4975-a1e7-ff4d7331048f
+conn-id        : 0
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "Debugger"
+connected-at   : 2018-05-14T11:11:20
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : 34094f2e-e8f4-476d-a263-324da359ac73
+conn-id        : 0
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "JobScheduler"
+connected-at   : 2018-04-03T18:42:45
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : b526a131-d9fa-4bb0-9d6d-94c4f3414912
+conn-id        : 0
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "JobScheduler"
+connected-at   : 2018-04-20T16:33:33
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : 00488442-84bc-4d0f-b568-f9f4f7419211
+conn-id        : 0
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "JobScheduler"
+connected-at   : 2018-04-03T18:42:45
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : 82bd7e49-a949-44a6-acda-a57288a18e49
+conn-id        : 0
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "Debugger"
+connected-at   : 2018-04-23T11:42:47
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : 86ab876a-8382-4b26-b8e8-ec0bbb8424a6
+conn-id        : 1753103
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 76e63eea-c3d8-48d7-8e3c-ba80aaedbce9
+application    : "1CV8"
+connected-at   : 2018-05-07T11:56:39
+session-number : 2
+blocked-by-ls  : 0
+
+connection     : 33786cb6-8cf0-4c83-b5b5-d92a6f6b7811
+conn-id        : 0
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "Debugger"
+connected-at   : 2018-05-13T11:50:36
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : 0873a8f8-e90e-4685-bcdd-f8b8d01e68ba
+conn-id        : 0
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : 7e468bc0-01f3-45d1-bed5-d5ec344aefb3
+application    : "BackgroundJob"
+connected-at   : 2018-05-14T11:15:28
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : 4170b8f9-ee6f-4328-bb30-54358a98e439
+conn-id        : 1994474
+host           : Sport1
+process        : 1af2e54f-d95a-4370-9b45-8277280cad23
+infobase       : aea71760-15b3-485a-9a35-506eb8a0b04a
+application    : "1CV8C"
+connected-at   : 2018-05-13T11:50:32
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : 33bd020f-fc2b-49d8-9256-b38a22d66e6e
+conn-id        : 0
+host           : Sport1
+process        : 3ea9968d-159c-4b5f-9bdc-22b8ead96f74
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "JobScheduler"
+connected-at   : 2018-05-14T11:14:24
+session-number : 0
+blocked-by-ls  : 0
+
+connection     : fb66a9a1-d098-4b20-9eae-63c477d6ee81
+conn-id        : 1912040
+host           : Sport1
+process        : 3ea9968d-159c-4b5f-9bdc-22b8ead96f74
+infobase       : feba16a9-3bb0-4fc9-b940-0f1ab933c539
+application    : "Designer"
+connected-at   : 2018-05-11T10:36:24
+session-number : 1
+blocked-by-ls  : 0
+
+connection     : 28d147ce-2934-4d28-84b5-6b84328f7ac6
+conn-id        : 0
+host           : Sport1
+process        : 3ea9968d-159c-4b5f-9bdc-22b8ead96f74
+infobase       : 00000000-0000-0000-0000-000000000000
+application    : "SrvrConsole"
+connected-at   : 2018-04-19T12:15:59
+session-number : 0
+blocked-by-ls  : 0
+

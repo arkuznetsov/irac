@@ -1,0 +1,105 @@
+name      : LicenseService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис лицензирования"
+
+name      : EventLogService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис журналов регистрации"
+
+name      : OpenID2ProviderContextService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис провайдера OpenID2"
+
+name      : TimestampService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис времени"
+
+name      : SessionReuseService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис повторного использования сеансов"
+
+name      : SessionDataService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис сеансовых данных"
+
+name      : ExternalSessionManagerService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис внешнего управления сеансами"
+
+name      : FulltextSearchService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис полнотекстового поиска"
+
+name      : TransactionLockService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис транзакционных блокировок"
+
+name      : DebugService
+main-only : 1
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис управления предметами отладки (TCP)"
+
+name      : ClusterConfigService
+main-only : 1
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис конфигурации кластера"
+
+name      : ClientTestingService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис тестирования"
+
+name      : ClusterLockService
+main-only : 1
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис блокировок кластера"
+
+name      : JobService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис заданий"
+
+name      : ExternalDataSourceXMLAService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис работы с внешними источниками данных через XMLA"
+
+name      : SettingsService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис пользовательских настроек"
+
+name      : ExternalDataSourceODBCService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис работы с внешними источниками данных через ODBC"
+
+name      : NumerationService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис нумерации"
+
+name      : DataEditLockService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис блокировки объектов"
+
+name      : AuxiliaryService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис вспомогательных функций кластера"
+
+name      : DataBaseConfigurationUpdateService
+main-only : 0
+manager   : 0e588a25-8354-4344-b935-53442312aa30
+descr     : "Сервис обновления конфигурации базы данных"
+

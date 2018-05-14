@@ -1,0 +1,6 @@
+name     : ИнтернетРесурс1
+descr    : 
+protocol : 
+url      : 
+port     : 0
+
