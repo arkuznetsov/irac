@@ -1,0 +1,186 @@
+connection : 1976200b-6b2f-4f6d-bc21-7aea57924330
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-07T11:56:31
+descr      : "Соединение(DEV_TVorsin_TRADE_ARTSANA,Sport1,Designer,(DEV_TVorsin_TRADE_ARTSANA,1753098))"
+
+connection : 8adf4514-0379-4333-a153-0b2689edc415
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-18T16:17:57
+descr      : "Соединение(DEV_AKuznetsov_TRADE_KYOCERA,Sport1,Designer,(DEV_AKuznetsov_TRADE_KYOCERA,947282))"
+
+connection : 2f5c0a21-65d1-4af2-8a29-3019957a16c3
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-07T11:56:39
+descr      : "Соединение(DebugControlCenter,Sport1,Debugger)"
+
+connection : fa82e322-e566-4975-a1e7-ff4d7331048f
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-14T11:11:20
+descr      : "Соединение(DebugControlCenter,Sport1,Debugger)"
+
+connection : 34094f2e-e8f4-476d-a263-324da359ac73
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-03T18:42:45
+descr      : "Соединение(ServerJobExecutorContext,Sport1,JobScheduler)"
+
+connection : b526a131-d9fa-4bb0-9d6d-94c4f3414912
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-20T16:33:33
+descr      : "Соединение(ServerJobExecutorContext,Sport1,JobScheduler)"
+
+connection : 2a0d9b34-e3dd-4b5a-b2e2-2ebd648ab770
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-15T07:37:03
+descr      : "Соединение(DEV_AKuznetsov_ACC_SHOPLIVE,Sport1,BackgroundJob,(DEV_AKuznetsov_ACC_SHOPLIVE,2067760))"
+
+connection : 00488442-84bc-4d0f-b568-f9f4f7419211
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-03T18:42:45
+descr      : "Соединение(ServerJobExecutorContext,Sport1,JobScheduler)"
+
+connection : 82bd7e49-a949-44a6-acda-a57288a18e49
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-23T11:42:47
+descr      : "Соединение(DebugControlCenter,Sport1,Debugger)"
+
+connection : 86ab876a-8382-4b26-b8e8-ec0bbb8424a6
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-07T11:56:39
+descr      : "Соединение(DEV_TVorsin_TRADE_ARTSANA,Sport1,1CV8,(DEV_TVorsin_TRADE_ARTSANA,1753103))"
+
+connection : 33786cb6-8cf0-4c83-b5b5-d92a6f6b7811
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-13T11:50:36
+descr      : "Соединение(DebugControlCenter,Sport1,Debugger)"
+
+connection : 4170b8f9-ee6f-4328-bb30-54358a98e439
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-13T11:50:32
+descr      : "Соединение(DEV_AKuznetsov_TRADE_KYOCERA,Sport1,1CV8C,(DEV_AKuznetsov_TRADE_KYOCERA,1994474))"
+
+connection : fb66a9a1-d098-4b20-9eae-63c477d6ee81
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-11T10:36:24
+descr      : "Соединение(DEV_AKuznetsov_ACC_KYOCERA,Sport1,Designer,(DEV_AKuznetsov_ACC_KYOCERA,1912040))"
+
+connection : 28d147ce-2934-4d28-84b5-6b84328f7ac6
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-19T12:15:59
+descr      : "Соединение(##AdminProcess##,Sport1,SrvrConsole)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-03T18:42:45
+descr      : "Рабочий процесс(Sport1,1561,0)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-03-29T11:16:02
+descr      : "Рабочий процесс(Sport1,1564,0)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-03-29T06:58:58
+descr      : "Менеджер кластера(Sport1,1541,0)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 6d7f9a69-8168-45be-bbc1-c4ab0b4629dd
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-11T10:36:38
+descr      : "ИБ(сеанс,DEV_AKuznetsov_ACC_KYOCERA,разделяемая)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 6d7f9a69-8168-45be-bbc1-c4ab0b4629dd
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-11T10:36:38
+descr      : "Конфигуратор(DEV_AKuznetsov_ACC_KYOCERA)"
+
+connection : fb66a9a1-d098-4b20-9eae-63c477d6ee81
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-11T10:36:24
+descr      : "ИБ(соединение,DEV_AKuznetsov_ACC_KYOCERA,разделяемая)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 1fb5f037-99e8-4924-a99d-a9e687522d32
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-09T14:51:31
+descr      : "ИБ(сеанс,DEV_AKuznetsov_TRADE_KYOCERA,разделяемая)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 1fb5f037-99e8-4924-a99d-a9e687522d32
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-09T14:51:31
+descr      : "Конфигуратор(DEV_AKuznetsov_TRADE_KYOCERA)"
+
+connection : 4170b8f9-ee6f-4328-bb30-54358a98e439
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-13T11:50:33
+descr      : "ИБ(соединение,DEV_AKuznetsov_TRADE_KYOCERA,разделяемая)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 877a29b9-be0a-46fd-adce-44949bcaf72b
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-13T11:50:35
+descr      : "ИБ(сеанс,DEV_AKuznetsov_TRADE_KYOCERA,разделяемая)"
+
+connection : 8adf4514-0379-4333-a153-0b2689edc415
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-18T16:17:58
+descr      : "ИБ(соединение,DEV_AKuznetsov_TRADE_KYOCERA,разделяемая)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 877a29b9-be0a-46fd-adce-44949bcaf72b
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-13T11:50:35
+descr      : "БД(сеанс,DEV_AKuznetsov_TRADE_KYOCERA,разделяемая)"
+
+connection : 1976200b-6b2f-4f6d-bc21-7aea57924330
+session    : 00000000-0000-0000-0000-000000000000
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-07T11:56:32
+descr      : "ИБ(соединение,DEV_TVorsin_TRADE_ARTSANA,разделяемая)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 451581eb-4020-4c3c-87f6-5512676bf97d
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-28T12:22:26
+descr      : "ИБ(сеанс,DEV_TVorsin_TRADE_ARTSANA,разделяемая)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 451581eb-4020-4c3c-87f6-5512676bf97d
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-04-28T12:22:26
+descr      : "Конфигуратор(DEV_TVorsin_TRADE_ARTSANA)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 6c785f29-c7af-4aab-bbf0-8ba25909b6bf
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-07T11:56:39
+descr      : "ИБ(сеанс,DEV_TVorsin_TRADE_ARTSANA,разделяемая)"
+
+connection : 00000000-0000-0000-0000-000000000000
+session    : 6c785f29-c7af-4aab-bbf0-8ba25909b6bf
+object     : 00000000-0000-0000-0000-000000000000
+locked     : 2018-05-07T11:56:39
+descr      : "БД(сеанс,DEV_TVorsin_TRADE_ARTSANA,разделяемая)"
+
