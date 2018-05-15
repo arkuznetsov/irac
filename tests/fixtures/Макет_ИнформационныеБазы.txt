@@ -1,20 +1,105 @@
-infobase : feba16a9-3bb0-4fc9-b940-0f1ab933c539
-name     : DEV_User1_ACC_Cust1
-descr    : 
+infobase                                   : feba16a9-3bb0-4fc9-b940-0f1ab933c539
+name                                       : DEV_User1_ACC_Cust1
+dbms                                       : MSSQLServer
+db-server                                  : Sport1
+db-name                                    : DEV_User1_ACC_Cust1
+db-user                                    : _1CSrvUsr1
+security-level                             : 0
+license-distribution                       : allow
+scheduled-jobs-deny                        : on
+sessions-deny                              : off
+denied-from                                : 
+denied-message                             : 
+denied-parameter                           : 
+denied-to                                  : 
+permission-code                            : 
+external-session-manager-connection-string : 
+external-session-manager-required          : no
+security-profile-name                      : 
+safe-mode-security-profile-name            : 
+descr                                      : 
 
-infobase : aea71760-15b3-485a-9a35-506eb8a0b04a
-name     : DEV_User1_TRADE_Cust1
-descr    : 
+infobase                                   : aea71760-15b3-485a-9a35-506eb8a0b04a
+name                                       : DEV_User1_TRADE_Cust1
+dbms                                       : MSSQLServer
+db-server                                  : Sport1
+db-name                                    : DEV_User1_TRADE_Cust1
+db-user                                    : _1CSrvUsr1
+security-level                             : 0
+license-distribution                       : allow
+scheduled-jobs-deny                        : on
+sessions-deny                              : off
+denied-from                                : 
+denied-message                             : 
+denied-parameter                           : 
+denied-to                                  : 
+permission-code                            : 
+external-session-manager-connection-string : 
+external-session-manager-required          : no
+security-profile-name                      : 
+safe-mode-security-profile-name            : 
+descr                                      : 
 
-infobase : 7e468bc0-01f3-45d1-bed5-d5ec344aefb3
-name     : DEV_User1_ACC_Cust2
-descr    : 
+infobase                                   : 7e468bc0-01f3-45d1-bed5-d5ec344aefb3
+name                                       : DEV_User1_ACC_Cust2
+dbms                                       : MSSQLServer
+db-server                                  : Sport1
+db-name                                    : DEV_User1_ACC_Cust2
+db-user                                    : _1CSrvUsr1
+security-level                             : 0
+license-distribution                       : allow
+scheduled-jobs-deny                        : on
+sessions-deny                              : off
+denied-from                                : 
+denied-message                             : 
+denied-parameter                           : 
+denied-to                                  : 
+permission-code                            : 
+external-session-manager-connection-string : 
+external-session-manager-required          : no
+security-profile-name                      : 
+safe-mode-security-profile-name            : 
+descr                                      : 
 
-infobase : 76e63eea-c3d8-48d7-8e3c-ba80aaedbce9
-name     : DEV_User2_TRADE_Cust2
-descr    : 
+infobase                                   : 76e63eea-c3d8-48d7-8e3c-ba80aaedbce9
+name                                       : DEV_User2_TRADE_Cust2
+dbms                                       : MSSQLServer
+db-server                                  : Sport1
+db-name                                    : DEV_User2_TRADE_Cust2
+db-user                                    : _1CSrvUsr1
+security-level                             : 0
+license-distribution                       : allow
+scheduled-jobs-deny                        : on
+sessions-deny                              : off
+denied-from                                : 
+denied-message                             : 
+denied-parameter                           : 
+denied-to                                  : 
+permission-code                            : 
+external-session-manager-connection-string : 
+external-session-manager-required          : no
+security-profile-name                      : 
+safe-mode-security-profile-name            : 
+descr                                      : 
 
-infobase : d8ee553b-9701-4d65-b385-599eaf1b3a54
-name     : DEV_User3_ACC_Cust1
-descr    : 
+infobase                                   : d8ee553b-9701-4d65-b385-599eaf1b3a54
+name                                       : DEV_User3_ACC_Cust1
+dbms                                       : MSSQLServer
+db-server                                  : Sport1
+db-name                                    : DEV_User3_ACC_Cust1
+db-user                                    : _1CSrvUsr1
+security-level                             : 0
+license-distribution                       : allow
+scheduled-jobs-deny                        : on
+sessions-deny                              : off
+denied-from                                : 
+denied-message                             : 
+denied-parameter                           : 
+denied-to                                  : 
+permission-code                            : 
+external-session-manager-connection-string : 
+external-session-manager-required          : no
+security-profile-name                      : 
+safe-mode-security-profile-name            : 
+descr                                      : 
 
