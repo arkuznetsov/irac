@@ -1,0 +1,4 @@
+name  : Модуль 1
+descr : 
+hash  : iaKOwtd6TRHQHOq5dTaAQA==
+

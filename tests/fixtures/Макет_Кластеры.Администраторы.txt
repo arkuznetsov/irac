@@ -1,0 +1,5 @@
+name    : clusteradmin
+auth    : pwd
+os-user :
+descr   : Администратор кластера 1С
+

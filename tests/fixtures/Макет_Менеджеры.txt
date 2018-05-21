@@ -1,0 +1,7 @@
+manager : 0e588a25-8354-4344-b935-53442312aa30
+pid     : 3388
+using   : normal
+host    : Sport1
+port    : 1541
+descr   : "Главный менеджер кластера"
+

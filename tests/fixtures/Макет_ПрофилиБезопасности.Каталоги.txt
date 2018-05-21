@@ -1,0 +1,6 @@
+alias        : Каталог1
+descr        : 
+physicalPath : 
+allowedRead  : no
+allowedWrite : no
+

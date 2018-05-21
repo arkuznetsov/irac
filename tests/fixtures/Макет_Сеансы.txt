@@ -1,0 +1,160 @@
+session                          : 1fb5f037-99e8-4924-a99d-a9e687522d32
+session-id                       : 1
+infobase                         : aea71760-15b3-485a-9a35-506eb8a0b04a
+connection                       : 8adf4514-0379-4333-a153-0b2689edc415
+process                          : 1af2e54f-d95a-4370-9b45-8277280cad23
+user-name                        : АКузнецов
+host                             : Sport1
+app-id                           : Designer
+locale                           : ru_RU
+started-at                       : 2018-04-09T14:51:31
+last-active-at                   : 2018-05-14T11:12:33
+hibernate                        : no
+passive-session-hibernate-time   : 1200
+hibernate-session-terminate-time : 86400
+blocked-by-dbms                  : 0
+blocked-by-ls                    : 0
+bytes-all                        : 105972550
+bytes-last-5min                  : 0
+calls-all                        : 119052
+calls-last-5min                  : 0
+dbms-bytes-all                   : 317824922
+dbms-bytes-last-5min             : 0
+db-proc-info                     : 
+db-proc-took                     : 0
+db-proc-took-at                  : 
+duration-all                     : 66184
+duration-all-dbms                : 43242
+duration-current                 : 0
+duration-current-dbms            : 0
+duration-last-5min               : 0
+duration-last-5min-dbms          : 0
+
+session                          : 451581eb-4020-4c3c-87f6-5512676bf97d
+session-id                       : 1
+infobase                         : 76e63eea-c3d8-48d7-8e3c-ba80aaedbce9
+connection                       : 1976200b-6b2f-4f6d-bc21-7aea57924330
+process                          : 1af2e54f-d95a-4370-9b45-8277280cad23
+user-name                        : Пользователь И.Б.
+host                             : Sport1
+app-id                           : Designer
+locale                           : ru_RU
+started-at                       : 2018-04-28T12:22:26
+last-active-at                   : 2018-05-14T11:13:55
+hibernate                        : no
+passive-session-hibernate-time   : 1200
+hibernate-session-terminate-time : 86400
+blocked-by-dbms                  : 0
+blocked-by-ls                    : 0
+bytes-all                        : 49614860
+bytes-last-5min                  : 0
+calls-all                        : 153920
+calls-last-5min                  : 0
+dbms-bytes-all                   : 338050537
+dbms-bytes-last-5min             : 0
+db-proc-info                     : 
+db-proc-took                     : 0
+db-proc-took-at                  : 
+duration-all                     : 496230
+duration-all-dbms                : 375412
+duration-current                 : 0
+duration-current-dbms            : 0
+duration-last-5min               : 0
+duration-last-5min-dbms          : 0
+
+session                          : 6c785f29-c7af-4aab-bbf0-8ba25909b6bf
+session-id                       : 2
+infobase                         : 76e63eea-c3d8-48d7-8e3c-ba80aaedbce9
+connection                       : 86ab876a-8382-4b26-b8e8-ec0bbb8424a6
+process                          : 1af2e54f-d95a-4370-9b45-8277280cad23
+user-name                        : Пользователь И.Б.
+host                             : Sport1
+app-id                           : 1CV8
+locale                           : ru
+started-at                       : 2018-05-07T11:56:39
+last-active-at                   : 2018-05-14T11:11:34
+hibernate                        : no
+passive-session-hibernate-time   : 1200
+hibernate-session-terminate-time : 86400
+blocked-by-dbms                  : 0
+blocked-by-ls                    : 0
+bytes-all                        : 33494250
+bytes-last-5min                  : 16403
+calls-all                        : 237248
+calls-last-5min                  : 116
+dbms-bytes-all                   : 26412110
+dbms-bytes-last-5min             : 240
+db-proc-info                     : 
+db-proc-took                     : 0
+db-proc-took-at                  : 
+duration-all                     : 60280
+duration-all-dbms                : 19420
+duration-current                 : 0
+duration-current-dbms            : 0
+duration-last-5min               : 0
+duration-last-5min-dbms          : 0
+
+session                          : 6d7f9a69-8168-45be-bbc1-c4ab0b4629dd
+session-id                       : 1
+infobase                         : feba16a9-3bb0-4fc9-b940-0f1ab933c539
+connection                       : fb66a9a1-d098-4b20-9eae-63c477d6ee81
+process                          : 3ea9968d-159c-4b5f-9bdc-22b8ead96f74
+user-name                        : АКузнецов
+host                             : Sport1
+app-id                           : Designer
+locale                           : ru_RU
+started-at                       : 2018-05-11T10:36:38
+last-active-at                   : 2018-05-14T11:11:41
+hibernate                        : no
+passive-session-hibernate-time   : 1200
+hibernate-session-terminate-time : 86400
+blocked-by-dbms                  : 0
+blocked-by-ls                    : 0
+bytes-all                        : 249401429
+bytes-last-5min                  : 0
+calls-all                        : 180420
+calls-last-5min                  : 0
+dbms-bytes-all                   : 153968974
+dbms-bytes-last-5min             : 0
+db-proc-info                     : 
+db-proc-took                     : 0
+db-proc-took-at                  : 
+duration-all                     : 57552
+duration-all-dbms                : 37076
+duration-current                 : 0
+duration-current-dbms            : 0
+duration-last-5min               : 0
+duration-last-5min-dbms          : 0
+
+session                          : 877a29b9-be0a-46fd-adce-44949bcaf72b
+session-id                       : 2
+infobase                         : aea71760-15b3-485a-9a35-506eb8a0b04a
+connection                       : 00000000-0000-0000-0000-000000000000
+process                          : 00000000-0000-0000-0000-000000000000
+user-name                        : АКузнецов
+host                             : 
+app-id                           : 1CV8C
+locale                           : ru
+started-at                       : 2018-05-13T11:50:35
+last-active-at                   : 2018-05-14T11:13:08
+hibernate                        : no
+passive-session-hibernate-time   : 1200
+hibernate-session-terminate-time : 86400
+blocked-by-dbms                  : 0
+blocked-by-ls                    : 0
+bytes-all                        : 3415895
+bytes-last-5min                  : 17272
+calls-all                        : 3164
+calls-last-5min                  : 15
+dbms-bytes-all                   : 10307424
+dbms-bytes-last-5min             : 50900
+db-proc-info                     : 
+db-proc-took                     : 0
+db-proc-took-at                  : 
+duration-all                     : 83008
+duration-all-dbms                : 27875
+duration-current                 : 0
+duration-current-dbms            : 0
+duration-last-5min               : 170
+duration-last-5min-dbms          : 30
+
