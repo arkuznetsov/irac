@@ -5,3 +5,4 @@ sonarlint.json
 test-reports/
 coverage/
 *.ospx
+tests/fixtures/ПараметрыТестирования.txt
