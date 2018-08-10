@@ -1,0 +1,14 @@
+server                              : 48336b16-d0e0-4c1e-9e9c-49fabfbd0ab5
+agent-host                          : Sport2
+agent-port                          : 1540
+port-range                          : 1560:1591
+name                                : "Дополнительный сервер"
+using                               : normal
+dedicate-managers                   : none
+infobases-limit                     : 8
+memory-limit                        : 0
+connections-limit                   : 128
+safe-working-processes-memory-limit : 0
+safe-call-memory-limit              : 0
+cluster-port                        : 1541
+

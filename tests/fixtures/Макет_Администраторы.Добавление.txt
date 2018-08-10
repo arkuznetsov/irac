@@ -1,0 +1,5 @@
+name    : mainadmin_2
+auth    : pwd
+os-user :
+descr   : 2-й главный администратор 1С
+
