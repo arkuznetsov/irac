@@ -1,0 +1,27 @@
+object                    : infobase=ut11;userName=DefUser
+collection-time           : 3600000
+duration                  : 143047
+cpu-time                  : 2562
+memory                    : 0
+read                      : 5989394
+write                     : 5038969
+duration-dbms             : 4306
+dbms-bytes                : 2632378
+service                   : 92
+call                      : 0
+number-of-active-sessions : 0
+number-of-sessions        : 95
+
+object                    : infobase=ut11;userName=user1
+collection-time           : 3600000
+duration                  : 28000
+cpu-time                  : 872
+memory                    : 0
+read                      : 1390767
+write                     : 1392297
+duration-dbms             : 799
+dbms-bytes                : 1586071
+service                   : 30
+call                      : 0
+number-of-active-sessions : 0
+number-of-sessions        : 9
