@@ -1,0 +1,54 @@
+name                      : CounterAll
+collection-time           : 3600000
+group                     : users
+filter-type               : all-selected
+filter                    : infobase=ut11
+duration                  : analyze
+cpu-time                  : analyze
+memory                    : analyze
+read                      : analyze
+write                     : analyze
+duration-dbms             : analyze
+dbms-bytes                : analyze
+service                   : analyze
+call                      : analyze
+number-of-active-sessions : analyze
+number-of-sessions        : analyze
+descr                     : 
+
+name                      : serverCalls
+collection-time           : 3600000
+group                     : users
+filter-type               : all
+filter                    : 
+duration                  : analyze
+cpu-time                  : not-analyze
+memory                    : not-analyze
+read                      : not-analyze
+write                     : not-analyze
+duration-dbms             : not-analyze
+dbms-bytes                : not-analyze
+service                   : not-analyze
+call                      : analyze
+number-of-active-sessions : not-analyze
+number-of-sessions        : not-analyze
+descr                     : 
+
+name                      : CallInfo
+collection-time           : current-call
+group                     : users
+filter-type               : all
+filter                    : 
+duration                  : not-analyze
+cpu-time                  : not-analyze
+memory                    : analyze
+read                      : analyze
+write                     : analyze
+duration-dbms             : not-analyze
+dbms-bytes                : analyze
+service                   : not-analyze
+call                      : not-analyze
+number-of-active-sessions : not-analyze
+number-of-sessions        : not-analyze
+descr                     : 
+
