@@ -1,0 +1,97 @@
+{
+    "ВариантыИспользованияРабочегоСервера":{
+        "Главный" : "main",
+        "Обычный" : "normal"
+    },
+    "ВариантыИспользованияМенеджераКластера":{
+        "Обычный" : "normal"
+    },
+    "ВариантыРазмещенияСервисов":{
+        "ВОтдельныхМенеджерах" : "all",
+        "ВОдномМенеджере"      : "none"
+    },
+    "СостоянияВыключателя":{
+        "Включено"  : "on",
+        "Выключено" : "off"
+    },
+    "ДаНет":{
+        "Да"  : "yes",
+        "Нет" : "no"
+    },
+    "ПраваДоступа":{
+        "Разрешено" : "allow",
+        "Запрещено" : "deny"
+    },
+    "РежимыРаспределенияНагрузки":{
+        "ПоПамяти"            : "memory",
+        "ПоПроизводительности": "performance"
+    },
+    "СпособыАвторизации":{
+        "Пароль"    : "pwd",
+        "ОС"        : "os",
+        "ПарольИОС" : "pwd|os"
+    },
+    "ТипыСУБД":{
+        "MSSQLServer"    : "MSSQLServer",
+        "PostgreSQL"     : "PostgreSQL",
+        "IBMDB2"         : "IBMDB2",
+        "OracleDatabase" : "OracleDatabase"
+    },
+    "Использование":{
+        "Использовать" : "use"
+    },
+    "ТипыНазначенияФункциональности":{
+        "Авто"        : "auto",
+        "Назначать"   : "always",
+        "НеНазначать" : "never"
+    },
+    "ОбъектыНазначенияФункциональности":{
+        "ЛюбойОбъект"                   : "",
+        "КлиентскиеСоединения"          : "Connection",
+        "ОбновлениеКонфигураций"        : "DataBaseConfigurationUpdateService",
+        "ЖурналРегистрации"             : "EventLogService",
+        "ПровайдерOpenID"               : "OpenID2ProviderContextService",
+        "ПолнотекстовыйПоиск"           : "FulltextSearchService",
+        "ПользовательскиеНастройки"     : "SettingsService",
+        "ТранзакционныеБлокировки"      : "TransactionLockService",
+        "ВнешнееУправлениеСеансами"     : "ExternalSessionManagerService",
+        "ВнешниеИсточникиXML"           : "ExternalDataSourceXMLAService",
+        "Тестирование"                  : "ClientTestingService",
+        "Лицензирование"                : "LicenseService",
+        "ДопФункцииКластера"            : "AuxiliaryService",
+        "Время"                         : "TimestampService",
+        "БлокировкиОбъектов"            : "DataEditLockService",
+        "СеансовыеДанные"               : "SessionDataService",
+        "Задания"                       : "JobService",
+        "Нумерация"                     : "NumerationService",
+        "ПовторноеИспользованиеСеансов" : "SessionReuseService",
+        "ВнешниеИсточникиODBC"          : "ExternalDataSourceODBCService"
+    },
+    "РежимыДоступа":{
+        "Список"       : "list",
+        "ПолныйДоступ" : "full"
+    },
+    "ВидыОбъектовПрофиляБезопасности":{
+        "Каталог"        : "directory",
+        "COMКласс"       : "com",
+        "Компонент"      : "addin",
+        "Модуль"         : "module",
+        "Приложение"     : "app",
+        "ИнтернетРесурс" : "inet"
+    },
+    "ДействияСБазойСУБДПриУдалении":{
+        "Очистить"             : "clear",
+        "Удалить"              : "drop",
+        "ОставитьБезИзменений" : "leave-as-is"
+    },
+    "Приложения":{
+        "Конфигуратор"         : "Designer",
+        "ТонкийКлиент"         : "1CV8C",
+        "ТолстыйКлиент"        : "1CV8",
+        "COMСоединение"        : "COMConnection",
+        "РасширениеWebСервера" : "WebServerExtension",
+        "Планировщик"          : "JobScheduler",
+        "ФоновоеЗадание"       : "BackgroundJob",
+        "КонсольКластера"      : "SrvrConsole"
+    }
+}
