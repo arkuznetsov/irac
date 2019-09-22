@@ -15,11 +15,13 @@ before_install:
   - oscript
   - sudo git clone -b develop http://github.com/arkuznetsov/1testrunner ./testrunner
   - sudo opm build ./testrunner -out ./testrunner
+  - sudo git clone -b develop http://github.com/arkuznetsov/moskito ./moskito
+  - sudo opm build ./moskito -out ./moskito
 install:  
   - sudo opm install 
   - sudo opm install 1testrunner
   - sudo opm install v8runner
-  - sudo opm install moskito
+  - sudo opm install -f ./moskito/moskito-0.4.0.ospx
   - sudo opm install -f ./testrunner/1testrunner-1.5.3.ospx
   
 cache:
