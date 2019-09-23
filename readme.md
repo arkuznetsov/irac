@@ -1,8 +1,10 @@
 # Библиотека управления кластером 1С
+[![GitHub release](https://img.shields.io/github/release/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/releases)
+[![GitHub license](https://img.shields.io/github/license/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/blob/develop/LICENSE.md)
 [![Build Status](https://travis-ci.org/arkuznetsov/irac.svg?branch=develop)](https://travis-ci.org/arkuznetsov/irac)
-[![Quality Gate](https://sonar.silverbulleters.org/api/badges/gate?key=opensource-irac)](https://sonar.silverbulleters.org/dashboard/index/opensource-irac)
-[![Coverage](https://sonar.silverbulleters.org/api/badges/measure?key=opensource-irac&metric=coverage)](https://sonar.silverbulleters.org/dashboard/index/opensource-irac)
-[![Tech debt](https://sonar.silverbulleters.org/api/badges/measure?key=opensource-irac&metric=sqale_debt_ratio)](https://sonar.silverbulleters.org/dashboard/index/opensource-irac)
+[![Quality Gate](https://oskk-sonar.1solution.ru/api/badges/gate?key=irac)](https://sonar.silverbulleters.org/dashboard/index/irac)
+[![Coverage](https://oskk-sonar.1solution.ru/api/badges/measure?key=irac&metric=coverage)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
+[![Tech debt](https://oskk-sonar.1solution.ru/api/badges/measure?key=irac&metric=sqale_debt_ratio)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
 
 ## Назначение
 
