@@ -3,7 +3,7 @@
 [![GitHub release](https://img.shields.io/github/release/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/releases)
 [![GitHub license](https://img.shields.io/github/license/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/blob/develop/LICENSE)
 [![Build Status](https://travis-ci.org/arkuznetsov/irac.svg?branch=develop)](https://travis-ci.org/arkuznetsov/irac)
-[![Quality Gate](https://oskk-sonar.1solution.ru/api/badges/gate?key=irac)](oskk-sonar.1solution.ru/dashboard/index/irac)
+[![Quality Gate](https://oskk-sonar.1solution.ru/api/badges/gate?key=irac)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
 [![Coverage](https://oskk-sonar.1solution.ru/api/badges/measure?key=irac&metric=coverage)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
 [![Tech debt](https://oskk-sonar.1solution.ru/api/badges/measure?key=irac&metric=sqale_debt_ratio)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
 
