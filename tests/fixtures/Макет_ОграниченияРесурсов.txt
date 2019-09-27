@@ -1,0 +1,17 @@
+name                      : ResourceLimit1
+action                    : none
+counter                   : serverCalls
+duration                  : 10000
+cpu-time                  : 0
+memory                    : 640000000
+read                      : 0
+write                     : 0
+duration-dbms             : 0
+dbms-bytes                : 0
+service                   : 0
+call                      : 0
+number-of-active-sessions : 0
+number-of-sessions        : 0
+error-message             : Сработало граничение ресурсов
+descr                     : Тестовое ограничение
+
