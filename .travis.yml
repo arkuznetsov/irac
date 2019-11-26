@@ -4,6 +4,8 @@ addons:
   sonarqube: true
 jdk:
   - openjdk11
+git:
+  depth: false
 before_install: 
   - chmod +x travis.sh
   - sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
