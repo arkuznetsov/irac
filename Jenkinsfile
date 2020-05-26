@@ -32,7 +32,7 @@ pipeline {
                             [envVar: 'CI_BOT_TOKEN', vaultKey: 'ci-bot']
                         ]]]           
                     withVault([configuration: [timeout: 60], vaultSecrets: secrets ]){ 
-                        withDockerContainer(args: "--network ${BUILD_TAG}_onec-net", image: 'demoncat/oscript:1.3.0') {
+                        withDockerContainer(args: "--network ${BUILD_TAG}_onec-net", image: 'registry.oskk.1solution.ru/docker-images/onec-oscript:8.3.14.1993-1.3.0') {
                             sh '/opt/1C/v8.3/x86_64/rac cluster list ras:1545'
                             sh '1testrunner -runall ./tests xddReportPath .'
                         }
