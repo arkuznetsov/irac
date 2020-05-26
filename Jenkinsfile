@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage('Build image') {
+        stage('testing') {
             steps {
                 echo 'Starting to build docker image'
                 script {  
@@ -33,7 +33,9 @@ pipeline {
                         ]]]           
                     withVault([configuration: [timeout: 60], vaultSecrets: secrets ]){ 
                         withDockerContainer(args: "--network ${BUILD_TAG}_onec-net", image: 'registry.oskk.1solution.ru/docker-images/onec-oscript:8.3.14.1993-1.3.0') {
-                            sh '/opt/1C/v8.3/x86_64/rac cluster list ras:1545'
+                            sh '''/opt/1C/v8.3/x86_64/rac cluster list ras:1545 && \
+                                opm install && \
+                                1bdd exec ./features '''
                             sh '1testrunner -runall ./tests xddReportPath .'
                         }
                     }
