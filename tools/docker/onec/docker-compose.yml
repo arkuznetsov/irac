@@ -1,0 +1,45 @@
+version: '3.7'
+
+services:
+  server:
+    build:
+      context: ./../onec-server
+      dockerfile: Dockerfile
+      args:
+        ONEC_USERNAME: ${ONEC_USERNAME}
+        ONEC_PASSWORD: ${ONEC_PASSWORD}
+        VERSION:  ${ONEC_VERSION}
+    depends_on:
+      - db
+    hostname: server
+    expose:
+      - "1540"
+    extra_hosts:
+    - "server:127.0.0.1"
+    networks:
+      onec-net:
+
+  db:
+    image: rsyuzyov/docker-postgresql-pro-1c
+    networks:
+      onec-net:
+
+
+  ras:
+    build:
+      context: .
+      dockerfile: ./../onec-full/Dockerfile
+      args:
+        ONEC_USERNAME: ${ONEC_USERNAME}
+        ONEC_PASSWORD: ${ONEC_PASSWORD}
+        VERSION:  ${ONEC_VERSION}
+    entrypoint: /opt/1C/v8.3/x86_64/ras
+    command: "cluster server:1540"
+    expose:
+      - "1545"
+    networks:
+      onec-net:
+
+networks:
+  onec-net:
+    external: false
