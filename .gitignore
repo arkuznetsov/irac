@@ -8,3 +8,4 @@ coverage/
 tests/fixtures/ПараметрыТестирования.txt
 
 oscript_modules
+tests_bdd.xml
