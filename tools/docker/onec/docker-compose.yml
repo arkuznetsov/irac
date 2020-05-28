@@ -20,7 +20,7 @@ services:
       onec-net:
 
   db:
-    image: rsyuzyov/docker-postgresql-pro-1
+    image: rsyuzyov/docker-postgresql-pro-1c
     environment: 
       - "POSTGRES_PASSWORD=password"
     networks:
