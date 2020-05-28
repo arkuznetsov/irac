@@ -20,12 +20,12 @@ services:
       onec-net:
 
   db:
-    image: rsyuzyov/docker-postgresql-pro-1c
-    environment: 
-      - "POSTGRES_PASSWORD=password"
+    image: silverbulleters/ya-docker-postgresql-1c
+    environment:
+      - PG_PASSWORD=password
+      - DEBUG=true
     networks:
       onec-net:
-
 
   ras:
     build:
