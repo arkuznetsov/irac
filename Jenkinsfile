@@ -4,7 +4,7 @@ pipeline {
     post {
         always {
             sh "docker-compose --project-name $BUILD_TAG --file tools/docker/onec/docker-compose.yml down || :"
-            junit allowEmptyResults: true, testResults: '**/tests_*.xml'
+            junit allowEmptyResults: true, testResults: '**/tests*.xml'
         }
     }
 
@@ -50,7 +50,7 @@ pipeline {
                         ]]]           
                     withVault([configuration: [timeout: 60], vaultSecrets: secrets ]){ 
                         withDockerContainer(args: "--network ${BUILD_TAG}_onec-net", image: 'registry.oskk.1solution.ru/docker-images/onec-oscript:8.3.14.1993-1.3.0') {
-                            sh '1testrunner -runall ./tests xddReportPath tests_tdd.xml .'
+                            sh '1testrunner -runall ./tests xddReportPath .'
                         }
                     }
                 }          
