@@ -3,7 +3,19 @@ pipeline {
 
     post {
         always {
-            sh "docker-compose --project-name $BUILD_TAG --file tools/docker/onec/docker-compose.yml down || :"
+            script{ 
+                def secrets = [
+                    [path: "DevOps/RELEASE_VERSIONS", engineVersion: 2, secretValues: [
+                        [envVar: 'ONEC_VERSION', vaultKey: 'ONEC']
+                    ]],
+                    [path: "DevOps/ONEC_RELEASE", engineVersion: 2, secretValues: [
+                        [envVar: 'ONEC_USERNAME', vaultKey: 'user'],
+                        [envVar: 'ONEC_PASSWORD', vaultKey: 'password']]]
+                ] 
+                withVault([configuration: [timeout: 60], vaultSecrets: secrets ]){   
+                    sh "docker-compose --project-name $BUILD_TAG --file tools/docker/onec/docker-compose.yml down" 
+                }
+            } 
             junit allowEmptyResults: true, testResults: '**/tests*.xml'
         }
     }
@@ -14,12 +26,26 @@ pipeline {
         timestamps() 
     }
 
+    environment {
+        ONEC_VERSION = vault path: "DevOps/RELEASE_VERSIONS", key: 'ONEC'
+    }
+
     stages {
 
         stage('onec prepare') {
-            steps {
-                sh 'docker-compose --file  tools/docker/onec/docker-compose.yml pull'
-                sh "docker-compose --project-name $BUILD_TAG --file  tools/docker/onec/docker-compose.yml up -d"
+            steps { 
+                script{ 
+                    
+                    def secrets = [
+                        [path: "DevOps/ONEC_RELEASE", engineVersion: 2, secretValues: [
+                            [envVar: 'ONEC_USERNAME', vaultKey: 'user'],
+                            [envVar: 'ONEC_PASSWORD', vaultKey: 'password']]]
+                    ] 
+                    withVault([configuration: [timeout: 60], vaultSecrets: secrets ]){   
+                        sh 'docker-compose --file  tools/docker/onec/docker-compose.yml pull'
+                        sh "docker-compose --project-name $BUILD_TAG --file  tools/docker/onec/docker-compose.yml up -d" 
+                    }
+                }   
             }
         }
 
@@ -40,7 +66,7 @@ pipeline {
             }
         }
 
-                stage('TDD testing') {
+        stage('TDD testing') {
             steps {
                 echo 'Starting to build docker image'
                 script {  
