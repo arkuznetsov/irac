@@ -58,8 +58,8 @@ pipeline {
                             [envVar: 'CI_BOT_TOKEN', vaultKey: 'ci-bot']
                         ]]]           
                     withVault([configuration: [timeout: 60], vaultSecrets: secrets ]){ 
-                        withDockerContainer(args: "--network ${BUILD_TAG}_onec-net --rm", image: 'registry.oskk.1solution.ru/docker-images/onec-oscript:8.3.14.1993-1.3.0') {
-                            sh '''1bdd exec -junit-out tests_bdd.xml ./features '''
+                        withDockerContainer(args: "--network ${BUILD_TAG}_onec-net", image: 'registry.oskk.1solution.ru/docker-images/onec-oscript:8.3.14.1993-1.3.0') {
+                            sh '1bdd exec -junit-out tests_bdd.xml ./features '
                         }
                     }
                 }          
@@ -75,7 +75,7 @@ pipeline {
                             [envVar: 'CI_BOT_TOKEN', vaultKey: 'ci-bot']
                         ]]]           
                     withVault([configuration: [timeout: 60], vaultSecrets: secrets ]){ 
-                        withDockerContainer(args: "--network ${BUILD_TAG}_onec-net --rm", image: 'registry.oskk.1solution.ru/docker-images/onec-oscript:8.3.14.1993-1.3.0') {
+                        withDockerContainer(args: "--network ${BUILD_TAG}_onec-net", image: 'registry.oskk.1solution.ru/docker-images/onec-oscript:8.3.14.1993-1.3.0') {
                             sh '1testrunner -runall ./tests xddReportPath .'
                         }
                     }
