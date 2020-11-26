@@ -5,6 +5,11 @@
 name: Контроль качества
 # Любой пуш и pr в проекте но с фильтром по основному проекту
 on: [push, pull_request]
+
+env:
+  # отключение безопасности установки, от 2020-10-01
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+
 jobs:
   build:
     if: github.repository == 'arkuznetsov/irac'
