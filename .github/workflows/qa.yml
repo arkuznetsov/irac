@@ -24,6 +24,9 @@ jobs:
       # Загрузка проекта
       - name: Актуализация
         uses: actions/checkout@v2
+        with:
+          # Disabling shadow clone is recomended
+          fetch-depth: 0
 
       # https://stackoverflow.com/questions/58033366/how-to-get-current-branch-within-github-actions
       - name: Извлечение имени текущей ветки
