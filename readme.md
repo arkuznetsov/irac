@@ -2,10 +2,10 @@
 
 [![GitHub release](https://img.shields.io/github/release/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/releases)
 [![GitHub license](https://img.shields.io/github/license/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/blob/develop/LICENSE)
-[![Build Status](https://travis-ci.org/arkuznetsov/irac.svg?branch=develop)](https://travis-ci.org/arkuznetsov/irac)
-[![Quality Gate](https://oskk-sonar.1solution.ru/api/badges/gate?key=irac)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
-[![Coverage](https://oskk-sonar.1solution.ru/api/badges/measure?key=irac&metric=coverage)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
-[![Tech debt](https://oskk-sonar.1solution.ru/api/badges/measure?key=irac&metric=sqale_debt_ratio)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
+[![Build Status](https://img.shields.io/github/workflow/status/ArKuznetsov/irac/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0](https://github.com/arkuznetsov/irac/actions/)
+[![Quality Gate](https://open.checkbsl.org/api/badges/gate?key=irac)](https://open.checkbsl.org/dashboard/index/irac)
+[![Coverage](https://open.checkbsl.org/api/badges/measure?key=irac&metric=coverage)](https://open.checkbsl.org/dashboard/index/irac)
+[![Tech debt](https://open.checkbsl.org/api/badges/measure?key=irac&metric=sqale_debt_ratio)](https://open.checkbsl.org/dashboard/index/irac)
 
 ## Назначение
 

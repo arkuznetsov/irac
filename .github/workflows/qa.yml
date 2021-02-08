@@ -36,7 +36,7 @@ jobs:
 
       # Установка OneScript конкретной версии
       - name: Установка OneScript
-        uses: otymko/setup-onescript@v1.0
+        uses: otymko/setup-onescript@v1.1
         with:
           version: ${{ matrix.oscript_version }}
 
