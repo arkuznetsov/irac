@@ -92,6 +92,24 @@
     duration-current-dbms
     duration-last-5min
     duration-last-5min-dbms
+    memory-current
+    memory-last-5min
+    memory-total
+    read-current
+    read-last-5min
+    read-total
+    write-current
+    write-last-5min
+    write-total
+    duration-current-service
+    duration-last-5min-service
+    duration-all-service
+    current-service-name
+    cpu-time-current
+    cpu-time-last-5min
+    cpu-time-total
+    data-separation
+    client-ip
 
 Поля лицензий:
     session             - ID

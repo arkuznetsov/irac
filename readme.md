@@ -2,10 +2,10 @@
 
 [![GitHub release](https://img.shields.io/github/release/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/releases)
 [![GitHub license](https://img.shields.io/github/license/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/blob/develop/LICENSE)
-[![Build Status](https://travis-ci.org/arkuznetsov/irac.svg?branch=develop)](https://travis-ci.org/arkuznetsov/irac)
-[![Quality Gate](https://oskk-sonar.1solution.ru/api/badges/gate?key=irac)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
-[![Coverage](https://oskk-sonar.1solution.ru/api/badges/measure?key=irac&metric=coverage)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
-[![Tech debt](https://oskk-sonar.1solution.ru/api/badges/measure?key=irac&metric=sqale_debt_ratio)](https://oskk-sonar.1solution.ru/dashboard/index/irac)
+[![Build Status](https://img.shields.io/github/workflow/status/ArKuznetsov/irac/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0)](https://github.com/arkuznetsov/irac/actions/)
+[![Quality Gate](https://img.shields.io/sonar/quality_gate/irac?server=https%3A%2F%2Fopen.checkbsl.org&sonarVersion=8.6)](https://open.checkbsl.org/dashboard/index/irac)
+[![Coverage](https://img.shields.io/sonar/coverage/irac?server=https%3A%2F%2Fopen.checkbsl.org&sonarVersion=8.6)](https://open.checkbsl.org/dashboard/index/irac)
+[![Tech debt](https://img.shields.io/sonar/tech_debt/irac?server=https%3A%2F%2Fopen.checkbsl.org&sonarVersion=8.6)](https://open.checkbsl.org/dashboard/index/irac)
 
 ## Назначение
 
@@ -35,7 +35,7 @@
 
     Сообщить(Сервер.Имя() + " (" + Сервер.АдресСервера() + ":" + Сервер.ПортСервера() + ")");
 
-    Для Каждого ТекАтрибут Из Серверы.ПараметрыОбъекта() Цикл
+    Для Каждого ТекАтрибут Из Серверы.ПараметрыОбъекта().ОписаниеСвойств() Цикл
         Сообщить(ТекАтрибут.Ключ + " : " + Сервер.Получить(ТекАтрибут.Значение.Имя));
     КонецЦикла;
 
@@ -50,7 +50,7 @@
 
     Сообщить(ТекИБ.Имя() + " (" + ?(ТекИБ.ПолноеОписание(), "Полное", "Сокращенное") + " " + ТекИБ.Описание() + ")");
 
-    Для Каждого ТекАтрибут Из ИБ.ПараметрыОбъекта() Цикл
+    Для Каждого ТекАтрибут Из ИБ.ПараметрыОбъекта().ОписаниеСвойств() Цикл
         Сообщить(ТекАтрибут.Ключ + " : " + ТекИБ.Получить(ТекАтрибут.Значение.Имя));
     КонецЦикла;
 
@@ -154,9 +154,9 @@
 
 | Методы |||
 |-|-|-|
-| **ОбновитьДанные(ОбновитьПринудительно)** ||обновляет список кластеров вызывая утилиту RAC|
-| **ПараметрыОбъекта(ИмяПоляКлюча)** |Соответствие|список возможных параметров кластера|
-| **Список(Отбор, ОбновитьПринудительно)** ||возвращает список кластеров, соответствующих отбору|
+| **ОбновитьДанные(РежимОбновления)** ||обновляет список кластеров вызывая утилиту RAC|
+| **ПараметрыОбъекта()** |Соответствие|список параметров объекта кластера|
+| **Список(Отбор, РежимОбновления)** ||возвращает список кластеров, соответствующих отбору|
 | **ВыполнитьКоманду(ПараметрыКоманды)** |Массив(Соответствие)|выполняет команду и возвращает код возврата|
 | **ВыводКоманды(РазобратьВывод)** |Строка/Массив(Соответствие)|возвращает вывод команды|
 | **КодВозврата()** |Число|возвращает код возврата выполнения команды|

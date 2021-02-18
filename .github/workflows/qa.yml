@@ -24,6 +24,9 @@ jobs:
       # Загрузка проекта
       - name: Актуализация
         uses: actions/checkout@v2
+        with:
+          # Disabling shadow clone is recomended
+          fetch-depth: 0
 
       # https://stackoverflow.com/questions/58033366/how-to-get-current-branch-within-github-actions
       - name: Извлечение имени текущей ветки
@@ -33,7 +36,7 @@ jobs:
 
       # Установка OneScript конкретной версии
       - name: Установка OneScript
-        uses: otymko/setup-onescript@v1.0
+        uses: otymko/setup-onescript@v1.1
         with:
           version: ${{ matrix.oscript_version }}
 
@@ -61,6 +64,7 @@ jobs:
         run: sonar-scanner
             -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
             -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
+            -Dsonar.branch.name=${{ steps.extract_branch.outputs.branch }}
             -Dsonar.projectVersion=${{ steps.extract_version.outputs.version }}
 
       # Анализ проекта в SonarQube (PR)
