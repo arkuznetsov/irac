@@ -143,4 +143,7 @@
     connections-limit
     safe-working-processes-memory-limit
     safe-call-memory-limit
+	critical-total-memory
+	temporary-allowed-total-memory
+	temporary-allowed-total-memory-time-limit
     cluster-port
