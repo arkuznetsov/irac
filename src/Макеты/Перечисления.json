@@ -85,18 +85,19 @@
         "ОставитьБезИзменений" : "leave-as-is"
     },
     "Приложения":{
-        "Конфигуратор"            : "Designer",
-        "ТонкийКлиент"            : "1CV8C",
-        "ТолстыйКлиент"           : "1CV8",
-        "COMСоединение"           : "COMConnection",
-        "РасширениеWebСервера"    : "WebServerExtension",
-        "WebКлиент"               : "WebClient",
-        "WebСервис"               : "WSConnection",
-        "HTTPСервис"              : "HTTPServiceConnection",
-        "Планировщик"             : "JobScheduler",
-        "ФоновоеЗадание"          : "BackgroundJob",
-        "КонсольКластера"         : "SrvrConsole",
-        "СервисАдминистрирования" : "RAS"
+        "Конфигуратор"             : "Designer",
+        "ТонкийКлиент"             : "1CV8C",
+        "ТолстыйКлиент"            : "1CV8",
+        "COMСоединение"            : "COMConnection",
+        "СоединениеЧерезWebСервер" : "WebServerExtension",
+        "WebКлиент"                : "WebClient",
+        "WebСервис"                : "WSConnection",
+        "HTTPСервис"               : "HTTPServiceConnection",
+        "Планировщик"              : "JobScheduler",
+        "ФоновоеЗадание"           : "BackgroundJob",
+        "КонсольАдминистрирования" : "SrvrConsole",
+        "СервисАдминистрирования"  : "RAS",
+        "ВызовАгента"              : "AgentStandardCall"
     },
     "ТипыГруппировкиСчетчиковРесурсов":{
         "Пользователи"         : "users",
