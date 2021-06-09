@@ -1,0 +1,14 @@
+cluster                       : 6d6958ed-a96c-4999-a995-698a0298161e
+host                          : Sport1
+port                          : 1541
+name                          : "Локальный кластер"
+expiration-timeout            : 0
+lifetime-limit                : 86400
+max-memory-size               : 0
+max-memory-time-limit         : 0
+security-level                : 0
+session-fault-tolerance-level : 0
+load-balancing-mode           : performance
+errors-count-threshold        : 0
+kill-problem-processes        : 0
+
