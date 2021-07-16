@@ -3,9 +3,9 @@
 [![GitHub release](https://img.shields.io/github/release/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/releases)
 [![GitHub license](https://img.shields.io/github/license/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/blob/develop/LICENSE)
 [![Build Status](https://img.shields.io/github/workflow/status/ArKuznetsov/irac/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0)](https://github.com/arkuznetsov/irac/actions/)
-[![Quality Gate](https://img.shields.io/sonar/quality_gate/irac?server=https%3A%2F%2Fopen.checkbsl.org&sonarVersion=8.6)](https://open.checkbsl.org/dashboard/index/irac)
-[![Coverage](https://img.shields.io/sonar/coverage/irac?server=https%3A%2F%2Fopen.checkbsl.org&sonarVersion=8.6)](https://open.checkbsl.org/dashboard/index/irac)
-[![Tech debt](https://img.shields.io/sonar/tech_debt/irac?server=https%3A%2F%2Fopen.checkbsl.org&sonarVersion=8.6)](https://open.checkbsl.org/dashboard/index/irac)
+[![Quality Gate](https://open.checkbsl.org/api/project_badges/measure?project=irac&metric=alert_status)](https://open.checkbsl.org/dashboard/index/irac)
+[![Coverage](https://open.checkbsl.org/api/project_badges/measure?project=irac&metric=coverage)](https://open.checkbsl.org/dashboard/index/irac)
+[![Tech debt](https://open.checkbsl.org/api/project_badges/measure?project=irac&metric=sqale_index)](https://open.checkbsl.org/dashboard/index/irac)
 
 ## Назначение
 
