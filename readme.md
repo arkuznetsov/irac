@@ -1,5 +1,3 @@
-# Библиотека управления кластером 1С
-
 [![GitHub release](https://img.shields.io/github/release/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/releases)
 [![GitHub license](https://img.shields.io/github/license/ArKuznetsov/irac.svg?style=flat-square)](https://github.com/ArKuznetsov/irac/blob/develop/LICENSE)
 [![GitHub Releases](https://img.shields.io/github/downloads/ArKuznetsov/irac/latest/total?style=flat-square)](https://github.com/ArKuznetsov/irac/releases)
@@ -8,6 +6,10 @@
 [![Quality Gate](https://open.checkbsl.org/api/project_badges/measure?project=irac&metric=alert_status)](https://open.checkbsl.org/dashboard/index/irac)
 [![Coverage](https://open.checkbsl.org/api/project_badges/measure?project=irac&metric=coverage)](https://open.checkbsl.org/dashboard/index/irac)
 [![Tech debt](https://open.checkbsl.org/api/project_badges/measure?project=irac&metric=sqale_index)](https://open.checkbsl.org/dashboard/index/irac)
+
+<div style="text-align:right"><a href="https://checkbsl.org"><img alt="Checked by Silver Bulleters SonarQube BSL plugin" src="https://web-files.do.bit-erp.ru/sonar/b_t.png" style="width:400px"/></a></div>
+
+# Библиотека управления кластером 1С
 
 ## Назначение
 
